@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panel rejestracji</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <style>
+      body {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(../assets/background-main.jpg);
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container vh-100">
+      <div class="row justify-content-center h-100">
+        <div class="card w-50 my-auto shadow">
+          <div class="card-header text-center bg-primary text-white m-3">
+            <h2>Panel rejestracji</h2>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group mt-3">
+                <label for="firstName">Imię</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="lastName">Nazwisko</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="gender">Płeć</label>
+                <div>
+                  <label for="male" class="radio-inline mt-3 p-1"
+                    ><input
+                      type="radio"
+                      class="m-1"
+                      name="gender"
+                      value="m"
+                      id="male"
+                      required
+                    />Mężczyzna</label
+                  >
+                  <label for="female" class="radio-inline mt-3 p-1"
+                    ><input
+                      type="radio"
+                      class="m-1"
+                      name="gender"
+                      value="f"
+                      id="female"
+                      required
+                    />Kobieta</label
+                  >
+                  <label for="others" class="radio-inline mt-3 p-1"
+                    ><input
+                      type="radio"
+                      class="m-1"
+                      name="gender"
+                      value="o"
+                      id="others"
+                      required
+                    />Inne</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="email">Adres e-mail</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="'email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="password">Hasło</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="number">Numer telefonu</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                  required
+                />
+              </div>
+
+              <input
+                type="submit"
+                class="btn btn-primary mt-3"
+                value="Zarejestruj się"
+                name=""
+              />
+            </form>
+            <p></p>
+            <a href="loginCustomer.html">
+              <input
+                type="submit"
+                class="btn btn-primary mb-3"
+                value="Wróc do panelu logowania klienta"
+                name=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer class="bg-light text-center text-lg-start">
+      Copyright
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright: Arkadiusz Woźniak
+      </div>
+      Copyright
+    </footer> -->
+  </body>
+</html>

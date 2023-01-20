@@ -1,0 +1,54 @@
+body {
+  background-color: #dddddd;
+}
+
+address {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.dsc {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.sliders {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stopka {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.alert {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.register {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.coops {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.discover {
+  text-align: center;
+  margin-top: 5%;
+}

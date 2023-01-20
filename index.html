@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/script.js" defer></script>
+    <script src="./resources/jquery-3.6.3.js"></script>
+    <link
+      rel="stylesheet"
+      href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <script
+      src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"
+      defer
+    ></script>
+    <script
+      src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="./resources/normalize.css" />
+    <title>Web-Trans</title>
+  </head>
+  <body>
+    <header class="header" id="intro">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand-and-toggler">
+            <a href="index.html" class="navbar-brand">
+              <img src="./assets/logo.png" alt="" />
+            </a>
+            <button type="button" class="navbar-toggler" id="navbar-toggler">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#intro" class="nav-link">STRONA GŁÓWNA</a>
+              </li>
+              <li class="nav-item">
+                <a href="#detail" class="nav-link">OFERTA</a>
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="nav-link">NASZ ZESPÓŁ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link">CENNIK</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">KONTAKT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">PANEL LOGOWANIA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-div center container">
+        <h1>Doświadczeni na drogach</h1>
+        <p>
+          Każdego miesiąca wykonujemy setki zleceń na polecenie naszych stałych
+          i nowych klientów
+        </p>
+
+        <div class="hero-btns">
+          <a href="#pricing"
+            ><button type="button" class="btn-trans">Zobacz koszt</button></a
+          >
+          <a href="#contact"
+            ><button type="button" class="btn-white">Skontaktuj się</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="detail" id="detail">
+      <div class="container">
+        <div class="row">
+          <div class="detail-item">
+            <span>
+              <i class="fa-sharp fa-solid fa-truck-moving"></i>
+            </span>
+            <h2>Transport ponadgabarytowy</h2>
+            <div class="line"></div>
+            <p class="text">
+              W ramach transportu ponadgabarytowego realizujemy przewóz maszyn,
+              naczep, sprzętu budowlanego, kontenerów i innych ładunków, których
+              wymiary i masa całkowita przekraczają normy prawne. Korzystanie z
+              transportu ponadnormatywnego jest możliwe po uzyskaniu stosownego
+              zezwolenia. Jeśli zaistnieje taka potrzeba, pomożemy Ci je zdobyć.
+            </p>
+          </div>
+
+          <div class="detail-item">
+            <span>
+              <i class="fa-solid fa-bolt-lightning"></i>
+            </span>
+            <h2>Usługi transportowe</h2>
+            <div class="line"></div>
+            <p class="text">
+              Web-Trans to firma transportowa z wieloletnim doświadczeniem w
+              branży transportowej. Dzięki niemu możemy oferować naszym klientom
+              kompleksowe usługi na najwyższym poziomie, a jednocześnie dostępne
+              w atrakcyjnych cenach. Elastycznie podchodzimy do każdego
+              zlecenia, oferując indywidualnie dopasowane rozwiązania.
+            </p>
+          </div>
+
+          <div class="detail-item">
+            <span>
+              <i class="fa-solid fa-truck"></i>
+            </span>
+            <h2>Transport ciężarowy</h2>
+            <div class="line"></div>
+            <p class="text">
+              Przewozimy ładunki o dużych gabarytach – specjalistyczny sprzęt,
+              palety czy materiały budowlane. Podejmujemy się także realizacji
+              zleceń związanych z przewozem towarów wymagających szczególnej
+              ostrożności. Korzystając z usług transportu ciężarowego Web-Trans,
+              możesz mieć pewność, że Twój ładunek jest bezpieczny.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="feature-left">
+            <img src="./assets/feature_3.png" alt="" />
+          </div>
+          <div class="feature-right">
+            <div class="title">
+              <h2>Najczęstsze połączenia</h2>
+              <p class="text">
+                Połączenia, które występują najczęsciej i firmy, które
+                obsługujemy. Poniżej wskazane trasy wykonujemy kilkadziesiąt
+                razy rocznie!
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <span><i class="fa-solid fa-cube"></i></span>
+              <div>
+                <h3>Warszawa - Lublin</h3>
+                <p class="text">
+                  - Pundit<br />
+                  - Dilects<br />
+                  - Amundzari<br />
+                  - Elma<br />
+                  - Jumani<br />
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span><i class="fa-solid fa-cube"></i></span>
+              <div>
+                <h3>Kraków - Rzeszów</h3>
+                <p class="text">
+                  - Spry<br />
+                  - Amazons<br />
+                  - Aspect<br />
+                  - Agents<br />
+                  - Veritas<br />
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span><i class="fa-solid fa-cube"></i></span>
+              <div>
+                <h3>Poznań - Katowice</h3>
+                <p class="text">
+                  - LocusDao<br />
+                  - Glitch a holic<br />
+                  - Ethos <br />
+                  - AgendaVerte<br />
+                  - Amici<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video">
+      <div class="container">
+        <a
+          href="https://www.youtube.com/watch?v=pMcRabtFBTo"
+          class="center popup-youtube"
+        >
+          <i class="fas fa-play"></i>
+        </a>
+        <h2>Obejrzyj jak pracujemy</h2>
+        <p>
+          Praca w magazynie czy prowadzenie ciężarówki to ciężka praca. Obie
+          prace wymagają siły fizycznej i psychicznej. Każdy dzień to wyzwanie
+          dla pracowników magazynu i kierowców ciężarówek. Są to wymagające
+          zadania, ale także satysfakcjonujące. Bycie pracującym profesjonalistą
+          jest trudne, ale jest też o wiele bardziej satysfakcjonujące niż
+          przebywanie w domu.
+        </p>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container">
+        <div class="title">
+          <h2>Nasz zespół</h2>
+          <p class="text">
+            Web-Trans to zgrany zespół różnych osób, które łączy wspólny
+            mianownik – sumienność, pracowitość i nieustępliwość w poszukiwaniu
+            rozwiązań korzystnych dla naszych klientów.
+          </p>
+        </div>
+
+        <div class="row owl-carousel owl-theme">
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-1.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Kryspin Piotrowski</h3>
+              <span>CEO</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-2.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Piotr Wysocki</h3>
+              <span>CFO</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-3.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Daria Kalinowska</h3>
+              <span>CMO</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-4.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Aisha Stępień</h3>
+              <span>CIO</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-5.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Irena Kubiak</h3>
+              <span>Key Accoung Manager</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-6.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Oskar Cieślak</h3>
+              <span>Customer Service Manager</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-7.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Bruno Maciejewski</h3>
+              <span>Supply Chain Manager</span>
+            </div>
+          </div>
+
+          <div class="team-item">
+            <div class="team-img">
+              <img src="./assets/team-8.jpg" alt="" />
+              <!-- <div class="team-icons">
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div> -->
+            </div>
+            <div class="team-info">
+              <h3>Eugeniusz Kaczmarczyk</h3>
+              <span>Human Resources Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="title">
+          <h2>FAQ</h2>
+          <p class="text">Poznaj odpowiedzi na najczęściej zadawane pytania.</p>
+        </div>
+        <div class="row">
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>Jaki jest koszt transportu palety?</h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                Koszt transportu jest w pełni zależny od wymiarów oraz wagi
+                palety. Do każdego Klienta podchodzimy indywidualnie,
+                odpowiednio optymalizując koszty.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>
+                Czy zlecony Państwu transport towaru jest równoznaczne z jego
+                ubezpieczeniem?
+              </h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                Tak. Każde zlecenie spedycyjne jest objęte ubezpieczeniem na
+                każde zdarzenie. Stanowi to dodatkową ochronę dla powierzonego
+                nam towaru.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>Na jaka sumę opiewa ubezpieczenie towaru w transporcie?</h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                Powierzony nam towar jest objęty ubezpieczeniem na każde
+                zdarzenie do kwoty 100 000 USD.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>Czy posiadają Państwo licencje oraz certyfikaty?</h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                Web-Trans posiada niezbędne licencje oraz certyfikaty
+                potwierdzające kompetencje zawodowe. Ponadto otrzymaliśmy
+                certyfikat potwierdzający rzetelność oraz wiarygodność naszej
+                firmy.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>Jaki jest czas transportu?</h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                To jak długo trwać będzie transport zależy od takich czynników,
+                jak miejsce docelowe, a także łączna waga przewożonego towaru.
+                Każdorazowo informujemy o planowanym czasie dostarczenia naszych
+                zleceniodawców.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-head">
+              <h3>Jakiego rodzaju naczepami Państwo dysponują?</h3>
+              <span><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-content">
+              <p class="text">
+                W naszej ofercie znajduje się bogaty wybór naczep, odpowiednio
+                dostosowany do rodzaju ładunku.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="title">
+          <h2>Cennik</h2>
+          <!-- <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde
+            nobis consequuntur nemo vitae, commodi aspernatur repellendus nam
+            reprehenderit voluptas.
+          </p> -->
+        </div>
+
+        <div class="row">
+          <div class="pricing-item">
+            <h2>Cennik za 1 kilometr</h2>
+            <div class="price">
+              <span>Transport osób</span>
+              <span class="text"></span>
+            </div>
+            <ul>
+              <li>Przewóz na trasach krajowych 1,50 - 2,10 zł / km</li>
+              <li>Transport miejski 40 zł / osoba</li>
+              <li>Postój 15 zł / godzina</li>
+            </ul>
+          </div>
+
+          <div class="pricing-item">
+            <h2>Cennik za 1 kilometr</h2>
+            <div class="price">
+              <span>Transport towarowy</span>
+              <span class="text"></span>
+            </div>
+            <ul>
+              <li>Od 0 kg do 500 kg 1,50 zł / km</li>
+              <li>Od 500 kg do 1000 kg 1,70 zł / km</li>
+              <li>Od 1000 kg do 1500 kg 1,90 zł / km</li>
+              <li>Od 1000 kg do 1800 kg 2,10 zł / km</li>
+            </ul>
+          </div>
+
+          <div class="pricing-item">
+            <h2>Cennik godzinowy miejski</h2>
+            <div class="price">
+              <span>Transport miejski</span>
+              <span class="text"></span>
+            </div>
+            <ul>
+              <li>Samochód 6 m3 L2H1 30 zł / godzina</li>
+              <li>Samochód 17 m3 L4H2 30 zł / godzina</li>
+              <li>Samochód 17 m3 L4H3 30 zł / godzina</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="testimonial" id="testimonial">
+      <div class="container">
+        <div class="title">
+          <h2>Testimonial bla bla</h2>
+          <p class="text">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="row owl-carousel owl-theme">
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="./assets/team-1.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+              sunt alias quaerat dolorum, blanditiis reiciendis eum corporis
+              laboriosam officiis praesentium, neque odio sequi incidunt nam!
+              Perferendis dicta corporis voluptates reiciendis quasi consequatur
+              dolor quis, aliquam perspiciatis sed fugit incidunt eveniet autem
+              temporibus amet provident ullam. Distinctio consectetur a repellat
+              quisquam?
+            </p>
+            <span>imie i naziwsko</span>
+          </div>
+
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="./assets/team-1.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+              sunt alias quaerat dolorum, blanditiis reiciendis eum corporis
+              laboriosam officiis praesentium, neque odio sequi incidunt nam!
+              Perferendis dicta corporis voluptates reiciendis quasi consequatur
+              dolor quis, aliquam perspiciatis sed fugit incidunt eveniet autem
+              temporibus amet provident ullam. Distinctio consectetur a repellat
+              quisquam?
+            </p>
+            <span>imie i naziwsko</span>
+          </div>
+
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="./assets/team-1.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+              sunt alias quaerat dolorum, blanditiis reiciendis eum corporis
+              laboriosam officiis praesentium, neque odio sequi incidunt nam!
+              Perferendis dicta corporis voluptates reiciendis quasi consequatur
+              dolor quis, aliquam perspiciatis sed fugit incidunt eveniet autem
+              temporibus amet provident ullam. Distinctio consectetur a repellat
+              quisquam?
+            </p>
+            <span>imie i naziwsko</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="title">
+          <h2>Kontakt</h2>
+          <p class="text">
+            Zapraszamy do współpracy zarówno osoby indywidualne, jak i firmy.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="contact-left">
+            <h2>Wiadomość</h2>
+            <form>
+              <input type="text" class="form-control" placeholder="Imię" />
+              <input type="email" class="form-control" placeholder="E-mail" />
+              <textarea placeholder="Wiadomość" rows="6"></textarea>
+              <button type="submit" class="submit-btn">Wyślij</button>
+            </form>
+          </div>
+
+          <div class="contact-right">
+            <div>
+              <h2>Biuro</h2>
+              <p class="text">ul. Ludwisarska 77, 04-210 Warszawa</p>
+            </div>
+            <div>
+              <h2>Telefon</h2>
+              <p class="text">22 250 11 22</p>
+            </div>
+            <div>
+              <h2>Adres e-mail</h2>
+              <p class="text">web-trans@wt.pl</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer center" id="footer">
+      <div class="container">
+        <p class="text">Zaloguj lub zarejestruj się do panelu klienckiego</p>
+        <div class="footer-links">
+          <a href="./resources/loginCustomer.html" class="center">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a href="./resources/registration.html" class="center">
+            <i class="fa-solid fa-user-plus"></i>
+          </a>
+          <a href="./resources/loginAdmin.html" class="center">
+            <i class="fa-solid fa-user-shield"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
