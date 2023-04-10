@@ -34,6 +34,7 @@ https://web-trans-site.netlify.app/
 
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 - [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+
 *Libraries are included in the project*
 
 ## Instructions For Use
