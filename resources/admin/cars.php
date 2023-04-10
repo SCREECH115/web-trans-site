@@ -62,7 +62,7 @@
                     <td>" . $row["yearOfPurchase"] . "</td>
                     <td>" . $row["equipment"] . "</td>
                     <td>
-                        <a class='btn btn-primary brn-sm text-white' href='/admin/edit.php?id=$row[id]'>Zaktualizuj</a>
+                        <a class='btn btn-primary brn-sm text-white' href='./edit.php?id=$row[id]'>Zaktualizuj</a>
                         <a class='btn btn-danger brn-sm text-white' href='delete.php?id=$row[id]'>Usuń</a>
                     </td>
                 </tr>";
