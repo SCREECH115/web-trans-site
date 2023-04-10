@@ -27,8 +27,8 @@ To install and run the project, follow these steps:
 https://web-trans-site.netlify.app/
 
 ### Program versions on the day of deployment:
-- -- Server version: 10.4.24-MariaDB
-- -- PHP version: 7.4.29
+- Server version: 10.4.24-MariaDB
+- PHP version: 7.4.29
 
 ## External Libraries ❤️
 
@@ -47,4 +47,4 @@ The project was created by
 *[SCREECH115](https://github.com/SCREECH115)*
 
 ## License
-This project is released under the MIT license. More information can be found in the *LICENSE* file.
+This project is released under the MIT license. More information can be found in the *[LICENSE](https://github.com/SCREECH115/web-trans-site/blob/main/LICENSE)* file.
