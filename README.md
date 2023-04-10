@@ -45,6 +45,3 @@ After logging in, the user can add, edit or delete elements such as the company'
 ## Authors
 The project was created by
 *[SCREECH115](https://github.com/SCREECH115)*
-
-## License
-This project is released under the MIT license. More information can be found in the *[LICENSE](https://github.com/SCREECH115/web-trans-site/blob/main/LICENSE)* file.
