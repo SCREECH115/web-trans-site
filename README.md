@@ -30,7 +30,13 @@ https://web-trans-site.netlify.app/
 - -- Server version: 10.4.24-MariaDB
 - -- PHP version: 7.4.29
 
-## Instructions for use
+## External Libraries ❤️
+
+- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+*Libraries are included in the project*
+
+## Instructions For Use
 After launching the project, the user can view information about the company and its offer on the home page. The administrator panel is available after logging into the system.
 
 After logging in, the user can add, edit or delete elements such as the company's fleet, drivers, contact forms and many more.
